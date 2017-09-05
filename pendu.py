@@ -1,6 +1,7 @@
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
 import fonctions
+import os
 
 print ("""
 ██████╗ ███████╗███╗   ██╗██████╗ ██╗   ██╗
@@ -38,3 +39,6 @@ else:
         fonctions.save_player(name, 0)
 
     print ("fin de la partie !")
+
+os.system("pause")
+debug = input("pause 2 debug")
